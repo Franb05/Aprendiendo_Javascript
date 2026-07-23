@@ -45,3 +45,14 @@ const ACTUAL = MAX - 13;
 const PERCERNTAGE = ACTUAL / MAX;
 
 console.log(PERCERNTAGE);
+
+/**
+ * ` ` estas comillas se las llaman backticks, crean un template literal.
+ * ${variable} inserta el valor de una variable dentro de un texto.
+ * Es una forma más moderna que usar + para concatenar cadenas.
+ */
+
+const nombre = "Franco";
+const edad = 21;
+
+console.log(`Hola, soy ${nombre} y tengo ${edad} años.`);
