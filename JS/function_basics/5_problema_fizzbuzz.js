@@ -4,9 +4,9 @@
  * imprime Buzz. Para los números que son múltiplos tanto de tres como de cinco, imprime FizzBuzz
  */
 
-let numero = Number(prompt("Ingrese un numero"));
+let numero = parseInt(prompt("Ingrese un numero"));
 let contador = 0;
-while (contador < numero) {
+while (contador <= numero) {
   if (contador % 3 === 0 && contador % 5 === 0) {
     console.log("FizzBuzz");
   } else if (contador % 3 === 0) {
